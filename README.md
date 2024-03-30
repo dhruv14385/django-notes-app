@@ -43,10 +43,7 @@ service jenkins status
 
 ## Create a new pipeline project in Jenkins
 
-Install Docker
-Install Docker compose
-Create credentials for Docker hub 
-Give permission to Jenkins user for Docker
+Make sure that name of the project does not have any space.
 
 ## Create credentials for Dockerhub
 ![image](https://github.com/dhruv14385/django-notes-app/assets/83332524/7fdbe137-daf8-4c13-b24d-044b61ac14c9)
