@@ -52,14 +52,10 @@ Give permission to Jenkins user for Docker
 ![image](https://github.com/dhruv14385/django-notes-app/assets/83332524/7fdbe137-daf8-4c13-b24d-044b61ac14c9)
 
 ## Create Jenkins pipeline project with following configurations
-![image](https://github.com/dhruv14385/django-notes-app/assets/83332524/841788c4-4c45-42a2-98f2-c8178fa89fca)
-![image](https://github.com/dhruv14385/django-notes-app/assets/83332524/98ca5838-c1c3-4204-8805-a58d90867836)
-![image](https://github.com/dhruv14385/django-notes-app/assets/83332524/2bebe167-0aed-4081-a308-6f7a86bdb4ee)
-![image](https://github.com/dhruv14385/django-notes-app/assets/83332524/91520d39-7127-4fea-abae-aa8caca4f694)
-
-
-
-
+![image](https://github.com/dhruv14385/django-notes-app/assets/83332524/841788c4-4c45-42a2-98f2-c8178fa89fca)  
+![image](https://github.com/dhruv14385/django-notes-app/assets/83332524/98ca5838-c1c3-4204-8805-a58d90867836)  
+![image](https://github.com/dhruv14385/django-notes-app/assets/83332524/2bebe167-0aed-4081-a308-6f7a86bdb4ee)  
+![image](https://github.com/dhruv14385/django-notes-app/assets/83332524/91520d39-7127-4fea-abae-aa8caca4f694)  
 
 
 ## Installation
