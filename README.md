@@ -74,7 +74,7 @@ Reboot the instance
 ```
 sudo reboot
 ```
-
+After rebooting, log in to Jenkins again and build again. This time, it should be successful. You can check the app running on port 8000.
 
 
 
