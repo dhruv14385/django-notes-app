@@ -1,26 +1,25 @@
 # Simple Notes App
 In this hands-on exercise, I will create a CI/CD pipeline project in Jenkins. A docker image will be created from a dockerfile. It will be pushed on to the Dockerhub. A container with application will be built from the image. I will use GITScm Polling for continuous integration and webhooks for continuous deployment. I have done this hands-on using EC2 Ubuntu instance. Keep the ports 8000 and 8080 accessible for all the traffic for the purpose of this hands-on. Please see following steps for explanation.  
 
-•	Get updates  
+Get updates  
 ```
 sudo apt update
 ```
 
-•	Clone the repository  
+Clone the repository  
 ```
 git clone https://github.com/dhruv14385/django-notes-app.git
 ```
-•	Change directory to django-notes-app
+Change directory to django-notes-app
 ```
 cd django-notes-app/
 ```
-•	Install Java version 11  
+Install Java version 11  
 ```
 sudo apt install openjdk-11-jre
 ```
 
-•	Open port 8080 to your IP on SG.  
-•	Install Jenkins. Enter following commands one after other.   
+Install Jenkins. Enter following commands one after other.   
 ```
 sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
  https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
@@ -36,13 +35,12 @@ sudo apt-get install jenkins
 sudo systemctl enable jenkins
 sudo systemctl start jenkins
 ```
-•	Confirm that Jenkins is running with following command.  
+Confirm that Jenkins is running with following command.  
 ```
 service jenkins status
 ```
 
-## Create a new pipeline project in Jenkins
-
+Create a new pipeline project in Jenkins.
 Make sure that name of the project does not have any space.
 
 ## Create credentials for Dockerhub
