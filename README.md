@@ -74,7 +74,10 @@ Reboot the instance
 ```
 sudo reboot
 ```
-After rebooting, log in to Jenkins again and build again. This time, it should be successful. You can check the app running on port 8000.
+After rebooting, log in to Jenkins again and build again. This time, it should be successful. You can check the app running on port 8000.  
+Add Webhook for continuous deployment.  
+![image](https://github.com/dhruv14385/django-notes-app/assets/83332524/630346b3-548c-4331-9b70-828276f2df1f)  
+
 
 
 
