@@ -78,29 +78,8 @@ After rebooting, log in to Jenkins again and build again. This time, it should b
 Add Webhook for continuous deployment.  
 ![image](https://github.com/dhruv14385/django-notes-app/assets/83332524/630346b3-548c-4331-9b70-828276f2df1f)  
 
+To check if the webhook is working or not, make any change to index,html located at mynotes/build/index.html in this repository. The build should start as soon as you commit any change.
 
 
 
 
-## Installation
-1. Clone the repository
-```
-git clone https://github.com/LondheShubham153/django-notes-app.git
-```
-
-2. Build the app
-```
-docker build -t notes-app .
-```
-
-3. Run the app
-```
-docker run -d -p 8000:8000 notes-app:latest
-```
-
-## Nginx
-
-Install Nginx reverse proxy to make this application available
-
-`sudo apt-get update`
-`sudo apt install nginx`
