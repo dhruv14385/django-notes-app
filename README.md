@@ -1,5 +1,5 @@
 # Simple Notes App
-This is a simple notes app built with React and Django.
+In this hands-on exercise, I will create a CI/CD pipeline project in Jenkins. A docker image will be created from a dockerfile. It will be pushed on to the Dockerhub. A container with application will be built from the image. I will use GITScm Polling for continuous integration and webhooks for continuous deployment.   
 
 ## Requirements
 1. Python 3.9
