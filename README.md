@@ -12,6 +12,31 @@ git clone https://github.com/dhruv14385/django-notes-app.git
 ```
 Change directory to django-notes-app
 
+## Install Java
+```
+sudo apt install default-jre
+```
+Check Java version
+java -version
+
+## Install Jenkins
+```
+sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
+  https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
+echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
+  https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+  /etc/apt/sources.list.d/jenkins.list > /dev/null
+sudo apt-get update
+sudo apt-get install Jenkins
+```
+
+## Create a new pipeline project in Jenkins
+
+Install Docker
+Install Docker compose
+Create credentials for Docker hub 
+Give permission to Jenkins user for Docker
+
 ## Installation
 1. Clone the repository
 ```
