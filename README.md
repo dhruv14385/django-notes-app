@@ -53,7 +53,7 @@ Make sure that name of the project does not have any space.
 ![image](https://github.com/dhruv14385/django-notes-app/assets/83332524/91520d39-7127-4fea-abae-aa8caca4f694)  
 
 
-## Install Docker
+Install Docker
 ```
 sudo apt install docker.io
 ```
