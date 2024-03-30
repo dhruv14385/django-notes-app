@@ -58,6 +58,21 @@ Give permission to Jenkins user for Docker
 ![image](https://github.com/dhruv14385/django-notes-app/assets/83332524/91520d39-7127-4fea-abae-aa8caca4f694)  
 
 
+## Install Docker
+```
+sudo apt install docker.io
+```
+Install docker compose
+```
+sudo apt-get install docker-compose
+```
+Build now and it will fail but it's ok. Go to Console output and copy the path of Jenkins workspace as shown below
+![image](https://github.com/dhruv14385/django-notes-app/assets/83332524/90b309cd-62a8-4a9f-9099-b9a7d8d86fbe)  
+
+
+
+
+
 ## Installation
 1. Clone the repository
 ```
