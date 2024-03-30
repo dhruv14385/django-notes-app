@@ -48,6 +48,10 @@ Install Docker compose
 Create credentials for Docker hub 
 Give permission to Jenkins user for Docker
 
+## Create credentials for Dockerhub
+![image](https://github.com/dhruv14385/django-notes-app/assets/83332524/7fdbe137-daf8-4c13-b24d-044b61ac14c9)
+
+
 ## Installation
 1. Clone the repository
 ```
