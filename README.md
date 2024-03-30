@@ -11,7 +11,9 @@ sudo apt update
 git clone https://github.com/dhruv14385/django-notes-app.git
 ```
 Change directory to django-notes-app
-
+```
+cd django-notes-app/
+```
 ## Install Java
 ```
 sudo apt install default-jre
