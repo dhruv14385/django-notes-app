@@ -40,7 +40,7 @@ Confirm that Jenkins is running with following command.
 service jenkins status
 ```
 
-Create a new pipeline project in Jenkins.
+Create a new pipeline project in Jenkins.  
 Make sure that name of the project does not have any space.
 
 ## Create credentials for Dockerhub
